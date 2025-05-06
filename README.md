@@ -61,6 +61,7 @@ Formula:
 
 
 ➡️ **=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])**
+
 Example:
 If you want to find the price based on product name, and the product name is in column A and price is in column B:
 

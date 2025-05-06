@@ -68,6 +68,7 @@ If you want to find the price based on product name, and the product name is in 
 
 ➡️ **=VLOOKUP("Product1", A2:B10, 2, FALSE)**
 You can do the same thing using the INDEX function.
+➡️**=INDEX(staff,MATCH($B$5,staff[Emp ID],0),2)**
 
 
 

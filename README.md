@@ -37,3 +37,7 @@ Copy
 Edit
 **=INDEX(staff, MATCH(MINIFS(staff[Salary], staff[Gender], "Male"), staff[Salary], 0), 0)**
 📌 This will return the entire row of the male employee who has the minimum salary.
+
+
+
+

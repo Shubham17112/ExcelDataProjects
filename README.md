@@ -52,5 +52,21 @@ To calculate the total price, you normally do: A1 * B1 — but if you want to us
 Just use absolute reference like this: A1 * $B$1
 (Shortcut key: F4 to apply the $ signs)
 
+🔸VLOOKUP
 
+This helps to find out values in another column based on the first column.
+(Same as INDEX, where you pass row number and column number — but here, you just pass the lookup value.)
 
+Formula:
+
+excel
+Copy
+Edit
+=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+Example:
+If you want to find the price based on product name, and the product name is in column A and price is in column B:
+
+excel
+Copy
+Edit
+=VLOOKUP("Product1", A2:B10, 2, FALSE)

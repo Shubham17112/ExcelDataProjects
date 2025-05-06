@@ -32,9 +32,6 @@ INDEX(array, row_num, [column_num])
 
 ✅ Final formula:
 
-sql
-Copy
-Edit
 **=INDEX(staff, MATCH(MINIFS(staff[Salary], staff[Gender], "Male"), staff[Salary], 0), 0)**
 📌 This will return the entire row of the male employee who has the minimum salary.
 
@@ -43,5 +40,17 @@ Edit
 COUNT just counts the numeric values.
 
 COUNTA counts everything except blank cells.
+
+**🔸Absolute Reference Vs Normal Reference**
+
+➡️ We use absolute reference when we need a fixed cell that doesn't change when we drag the formula.
+
+Example:
+Let’s suppose you have a column A (quantity) and another column B (price).
+To calculate the total price, you normally do: A1 * B1 — but if you want to use the same price in B1 for every row in column A, and calculate net price, instead of writing B1 value manually again and again...
+
+Just use absolute reference like this: A1 * $B$1
+(Shortcut key: F4 to apply the $ signs)
+
 
 

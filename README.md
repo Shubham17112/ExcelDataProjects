@@ -1,20 +1,21 @@
-🔹 Remove Duplicate Values
+**🔹 Remove Duplicate Values**
+
 ➡️ Used the Remove Duplicates feature from the Data tab to eliminate repeated salary entries.
 
-🔸 Conditional Aggregation with Formulas
+**🔸 Conditional Aggregation with Formulas**
 ➡️ Applied SUMIF, COUNTIF, and AVERAGEIF functions in the SalaryByDepartment table to analyze salary data by department.
 
-🔹 Filter High-Salary Staff
+**🔹 Filter High-Salary Staff**
 ➡️ In the Staff>100K sheet, used the Filter function to display only employees with salaries above 100,000.
 
-🔸 INDEX Function
+**🔸 INDEX Function**
 ➡️ Used the INDEX function to retrieve specific columns and rows as needed for dynamic referencing.
 🔧 Syntax: INDEX(array, row_num, [column_num])
 
-🔹 SEQUENCE with COLUMNS
+**🔹 SEQUENCE with COLUMNS**
 ➡️ Combined SEQUENCE with COLUMNS to generate a dynamic range of rows and columns.
 
-🔸 Match Function (will give u row number or column number)
+**🔸 Match Function (will give u row number or column number)**
 ➡️ I have used the MATCH function with the INDEX function along with MINIFS.
 🧠 Here’s how it works:
 
@@ -34,5 +35,5 @@ INDEX(array, row_num, [column_num])
 sql
 Copy
 Edit
-=INDEX(staff, MATCH(MINIFS(staff[Salary], staff[Gender], "Male"), staff[Salary], 0), 0)
+**=INDEX(staff, MATCH(MINIFS(staff[Salary], staff[Gender], "Male"), staff[Salary], 0), 0)**
 📌 This will return the entire row of the male employee who has the minimum salary.

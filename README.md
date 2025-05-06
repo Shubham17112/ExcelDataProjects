@@ -59,24 +59,20 @@ This helps to find out values in another column based on the first column.
 
 Formula:
 
-excel
-Copy
-Edit
-=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+
+➡️ **=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])**
 Example:
 If you want to find the price based on product name, and the product name is in column A and price is in column B:
 
-excel
-Copy
-Edit
-=VLOOKUP("Product1", A2:B10, 2, FALSE)
+
+➡️ **=VLOOKUP("Product1", A2:B10, 2, FALSE)**
 You can do the same thing using the INDEX function.
 
 
 
-Here, from Employee ID, we extracted First Name, Last Name, Salary, and Department using both VLOOKUP and INDEX + MATCH.
+➡️ Here, from Employee ID, we extracted First Name, Last Name, Salary, and Department using both VLOOKUP and INDEX + MATCH.
 ![image](https://github.com/user-attachments/assets/a6775d5e-3cec-498f-a279-5b830216dc22)
 
 
 
-INDEX + MATCH is more flexible — you can look up values in any direction and it’s also faster with large datasets.
+➡️ INDEX + MATCH is more flexible — you can look up values in any direction and it’s also faster with large datasets.

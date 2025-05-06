@@ -38,8 +38,8 @@ Edit
 **=INDEX(staff, MATCH(MINIFS(staff[Salary], staff[Gender], "Male"), staff[Salary], 0), 0)**
 📌 This will return the entire row of the male employee who has the minimum salary.
 
-**Count vs COUNTA
-**
+**🔸Count vs COUNTA**
+
 COUNT just counts the numeric values.
 
 COUNTA counts everything except blank cells.

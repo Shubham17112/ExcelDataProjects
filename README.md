@@ -79,3 +79,16 @@ You can do the same thing using the INDEX function.
 
 
 ➡️ INDEX + MATCH is more flexible — you can look up values in any direction and it’s also faster with large datasets.
+
+🔸 **Xlookup**
+➡️ =XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])
+
+This lookup can search in any row or column (not limited like VLOOKUP or HLOOKUP).
+
+➡️lookup_value → what you want to find
+
+➡️lookup_array → the array where you want to find that value
+
+➡️return_array → what you want to return from the corresponding row or column
+
+✅ It automatically uses exact match by default — no need to add FALSE like in VLOOKUP.

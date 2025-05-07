@@ -105,3 +105,20 @@ This lookup can search in any row or column (not limited like VLOOKUP or HLOOKUP
 ➡️return_array → what you want to return from the corresponding row or column
 
 ✅ It automatically uses exact match by default — no need to add FALSE like in VLOOKUP.
+
+🔸** Filter Function **
+
+➡️ Every lookup function only provides the first matched value based on the condition.
+But what if there are two rows that match the condition?
+In that case, only the first one will come.
+
+To avoid this, we use the FILTER function.
+
+➡️
+
+=FILTER(array, include, [if_empty])
+Example:
+=FILTER(staff[First Name]&" "&staff[Last Name], staff[Salary]=MAX(staff[Salary]))
+This will return all staff whose salary is equal to the max salary — not just the first one.
+
+

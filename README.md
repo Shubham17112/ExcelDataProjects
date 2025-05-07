@@ -121,5 +121,8 @@ Example:
 
 =FILTER(staff[First Name]&" "&staff[Last Name], staff[Salary]=MAX(staff[Salary]))
 This will return all staff whose salary is equal to the max salary — not just the first one.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+🔸 **Pivot Table**
 
+Ctrl + T : tabular formate

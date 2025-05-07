@@ -4,6 +4,18 @@
 
 **🔸 Conditional Aggregation with Formulas**
 ➡️ Applied SUMIF, COUNTIF, and AVERAGEIF functions in the SalaryByDepartment table to analyze salary data by department.
+🔹 Sort Function
+➡️ It returns the sorted array
+
+
+=SORT(array, [sort_index], [sort_order], [by_col])
+array → the range or array you want to sort
+
+sort_index → e.g. 1, 2, 3 — it's the column number of the array you want to sort by
+
+sort_order → either 1 (ascending) or -1 (descending)
+
+It will return the full table — all rows or full array you selected
 
 **🔹 Filter High-Salary Staff**
 ➡️ In the Staff>100K sheet, used the Filter function to display only employees with salaries above 100,000.

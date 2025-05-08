@@ -123,30 +123,32 @@ Example:
 This will return all staff whose salary is equal to the max salary — not just the first one.
 
 
-Note:
-COUNTIFS, SUMIFS, and AVERAGEIFS can check more than one condition at the same time.
+🔸Note:
+
+➡️ COUNTIFS, SUMIFS, and AVERAGEIFS can check more than one condition at the same time.
+
 Example:
 
-excel
-Copy
-Edit
-=COUNTIFS(staff[salary], 200, staff[department], "Physics")
+
+➡️ **=COUNTIFS(staff[salary], 200, staff[department], "Physics")**
+
 This will count how many rows have:
 
 Salary = 200
 
 AND Department = "Physics"
 
-⚠️ Important Difference with IF:
+➡️ ⚠️ Important Difference with IF:
+
 The regular IF function can only check one condition at a time, like:
 
 
-Edit
-**=IF(A2=200, "Yes", "No")**
+
+➡️ **=IF(A2=200, "Yes", "No")**
 But if you want to check multiple conditions in IF, you need to use it with AND or OR, like:
 
 
-**=IF(AND(A2=200, B2="Physics"), "Yes", "No")**
+➡️ **=IF(AND(A2=200, B2="Physics"), "Yes", "No")**
 
 So technically:
 

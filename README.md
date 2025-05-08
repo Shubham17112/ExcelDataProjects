@@ -1,4 +1,5 @@
 Q) All of this Buiness Question has been answered 
+
 🔸How many calls we are getting by customer?
 🔸How satisfied are our customers?
 ![image](https://github.com/user-attachments/assets/65dad295-d1c5-46da-b69a-50cc22129fee)

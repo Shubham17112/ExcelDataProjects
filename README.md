@@ -1,3 +1,14 @@
+Q) All of this Buiness Question has been answered 
+How many calls we are getting by customer?
+How satisfied are our customers?
+Who are our top 10 customers?
+Top 10 customers for a specific representative?
+Call duration analysis
+How busy is our call centre in 2023?
+YTD Sales Analysis
+Which days of week are the busiest?
+
+
 **🔹 Remove Duplicate Values**
 
 ➡️ Used the Remove Duplicates feature from the Data tab to eliminate repeated salary entries.

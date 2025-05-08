@@ -121,6 +121,38 @@ Example:
 
 =FILTER(staff[First Name]&" "&staff[Last Name], staff[Salary]=MAX(staff[Salary]))
 This will return all staff whose salary is equal to the max salary — not just the first one.
+
+
+Note:
+COUNTIFS, SUMIFS, and AVERAGEIFS can check more than one condition at the same time.
+Example:
+
+excel
+Copy
+Edit
+=COUNTIFS(staff[salary], 200, staff[department], "Physics")
+This will count how many rows have:
+
+Salary = 200
+
+AND Department = "Physics"
+
+⚠️ Important Difference with IF:
+The regular IF function can only check one condition at a time, like:
+
+
+Edit
+**=IF(A2=200, "Yes", "No")**
+But if you want to check multiple conditions in IF, you need to use it with AND or OR, like:
+
+
+**=IF(AND(A2=200, B2="Physics"), "Yes", "No")**
+
+So technically:
+
+IF can check more than one condition
+
+But you must manually use AND or OR inside it
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔸 **Pivot Table**

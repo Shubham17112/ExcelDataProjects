@@ -1,13 +1,28 @@
 Q) All of this Buiness Question has been answered 
-How many calls we are getting by customer?
-How satisfied are our customers?
-Who are our top 10 customers?
-Top 10 customers for a specific representative?
-Call duration analysis
-How busy is our call centre in 2023?
-YTD Sales Analysis
-Which days of week are the busiest?
+🔸How many calls we are getting by customer?
+🔸How satisfied are our customers?
+![image](https://github.com/user-attachments/assets/65dad295-d1c5-46da-b69a-50cc22129fee)
 
+
+
+🔸Who are our top 10 customers?
+
+🔸Top 10 customers for a specific representative?
+![image](https://github.com/user-attachments/assets/e64ebcf1-ee8f-4c3e-97cc-5693878bd8b8)
+
+🔸Call duration analysis
+![image](https://github.com/user-attachments/assets/218a687c-36ae-4785-bb4f-0e83952aafa5)
+
+🔸How busy is our call centre in 2023?
+![image](https://github.com/user-attachments/assets/a1280844-b021-4c2b-9777-4ceb5d4d05a7)
+
+🔸YTD Sales Analysis
+![image](https://github.com/user-attachments/assets/16b1d9a0-5fb3-42eb-9da6-8c1e3bf3c6f9)
+
+🔸Which days of week are the busiest?
+![image](https://github.com/user-attachments/assets/35105594-512f-40f2-a551-e2359809cad3)
+
+![image](https://github.com/user-attachments/assets/40c51165-6be2-40c6-bbf7-41e6559c5702)
 
 **🔹 Remove Duplicate Values**
 
